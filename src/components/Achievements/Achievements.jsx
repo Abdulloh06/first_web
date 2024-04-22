@@ -30,7 +30,7 @@ function Achievements() {
                     <div style={{ textAlign: "start" }} className='feature-subtitle'>Connect Landify with your favourite tools that you use<br />daily and keep things on track.</div>
                 </div>
                 <div className="a-container">
-                    <img src={require("../../assets/icons/vector.svg").default} />
+                    <img src={require("../../assets/icons/vector.svg").default} alt='vector'/>
                     <div className='item'>
                         <div style={{display:"flex"}}>
                             <img src={require("../../assets/icons/logo1.svg").default} alt='logo1' />
