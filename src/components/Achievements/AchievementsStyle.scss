@@ -1,0 +1,30 @@
+.a-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 70px;
+  }
+  
+.a-item {
+    min-height: 80px;
+    display: inline;
+    background-color: transparent;
+}
+
+.a-container {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  flex-direction: column;
+  position: relative;
+  margin: 0 auto;
+
+ .item {
+   position: absolute;
+   margin-left: 46px;
+   margin-right: 46px;
+
+ }
+}
+
+
+

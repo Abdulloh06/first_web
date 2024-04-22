@@ -1,0 +1,49 @@
+.body {
+    padding-top: 64px;
+    padding-left: 112px;
+    padding-right: 153px;
+    padding-bottom: 64px;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+
+    .left {
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left {
+
+        .links {
+            display: flex;
+            gap: 10px;
+
+            a {
+                color: #fff;
+                text-decoration: none;
+                &:hover {
+                    color: grey;
+                }
+            }
+            
+        }
+    }
+
+    .right {
+        .app-links {
+            margin-top: 16px;
+        }
+
+        .get-app {
+            font-size: 18px;
+            font-weight: 600;
+            text-align: start;
+            color: rgb(209,213,219, 1);
+        }
+    }
+}

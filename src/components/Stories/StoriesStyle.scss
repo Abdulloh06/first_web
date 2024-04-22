@@ -1,0 +1,46 @@
+
+.story-stack {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: hsl(183, 87%, 91%);
+    padding: 64px 112px;
+    margin-top: 96px;
+    
+    .column {
+        display: flex;
+        margin-top: 55px;
+        margin-left: 105px;
+        text-align: start;
+    }
+
+    .title {
+        font-size: 48px;
+        font-weight: bold;
+        text-align: start;
+    }
+
+    .sub {
+        font-size: 18px;
+        text-align: start;
+    }
+
+    .quote {
+        position: absolute;
+        height: 116px;
+        width: 142px;
+    }
+}
+
+.story-card {
+    width: fit-content;
+    background-color: white;
+    padding: 32px;
+    border-radius: 8px;
+
+    .title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 24px;
+    }
+}

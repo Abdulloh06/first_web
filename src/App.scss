@@ -1,6 +1,29 @@
+
 .App {
   text-align: center;
 }
+
+.stack {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+
+$blur-radius: 140px; // Adjust the blur radius as needed
+$circle-size: 300px; // Adjust the circle size as needed
+$circle-color: rgba(124, 58, 237, 1); // Adjust the circle color and opacity as needed
+
+.blur-circle {
+  width: $circle-size;
+  height: $circle-size;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, transparent, $circle-color $blur-radius);
+  filter: blur($blur-radius);
+  align-self: flex-end;
+  position: absolute;
+}
+
 
 .App-logo {
   height: 40vmin;
