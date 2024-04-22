@@ -25,7 +25,7 @@ function HomeWidget() {
                                 <img src={playIcon} style={{marginRight:'10px', alignSelf:"start"}}/>Watch video</center></div></button>
                         </div>
                     </div>
-                    <img src={phone} height="640px" width="320px" alt='' />
+                    <img src={phone} height="640px" width="320px" alt='phone' />
                 </div>
             </div>
             <div style={{width:"80%", marginTop: "115px", marginLeft:"10%", marginBottom: "100px"}}>

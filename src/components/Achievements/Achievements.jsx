@@ -2,10 +2,6 @@ import AchievementItem from './AchievementItem';
 
 function Achievements() {
 
-    const logoList = [
-        "logo1.svg", "slack.svg", 'settings.svg', 'green_logo.svg', 'drop_box.svg', 'monkey_logo.svg', 'blue_logo.svg',
-    ];
-
     return (
 
         <div style={{ marginBottom: "91px", marginTop: "91px", marginLeft: "112px", }}>
@@ -37,23 +33,23 @@ function Achievements() {
                     <img src={require("../../assets/icons/vector.svg").default} />
                     <div className='item'>
                         <div style={{display:"flex"}}>
-                            <img src={require("../../assets/icons/logo1.svg").default} />
+                            <img src={require("../../assets/icons/logo1.svg").default} alt='logo1' />
                             <div style={{ marginRight: "64px" }} />
-                            <img src={require("../../assets/icons/slack.svg").default} />
-                            <div style={{ marginRight: "64px" }} />
-
-                            <img src={require("../../assets/icons/settings.svg").default} />
+                            <img src={require("../../assets/icons/slack.svg").default} alt='slack' />
                             <div style={{ marginRight: "64px" }} />
 
-                            <img src={require("../../assets/icons/green_logo.svg").default} />
+                            <img src={require("../../assets/icons/settings.svg").default} alt='settings'/>
+                            <div style={{ marginRight: "64px" }} />
+
+                            <img src={require("../../assets/icons/green_logo.svg").default} alt='green_logo'/>
                         </div>
                         <div style={{display:"flex", marginTop:"64px", marginLeft:"64px"}}>
-                            <img src={require("../../assets/icons/drop_box.svg").default} />
+                            <img src={require("../../assets/icons/drop_box.svg").default} alt='drop_box'/>
                             <div style={{ marginRight: "64px" }} />
-                            <img src={require("../../assets/icons/monkey_logo.svg").default} />
+                            <img src={require("../../assets/icons/monkey_logo.svg").default} alt='monkey_logo'/>
                             <div style={{ marginRight: "64px" }} />
 
-                            <img src={require("../../assets/icons/blue_logo.svg").default} />
+                            <img src={require("../../assets/icons/blue_logo.svg").default} alt=''blue_logo/>
                         </div>
                     </div>
                 </div>

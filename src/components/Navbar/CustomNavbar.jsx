@@ -1,6 +1,4 @@
 import logo from '../../assets/images/logo.png';
-import google from '../../assets/images/google_play.png';
-import appStore from '../../assets/images/app_store.png';
 
 import "./NavbarStyles.scss";
 
@@ -17,8 +15,8 @@ function CustomNavbar() {
         </ul>
       </div>
       <div>
-        <img height="40px" width='135px' onClick="" src={require('../../assets/images/google_play.png')} />
-        <img style={{ marginLeft: "12px" }} height="40px" width='135px' onClick="" src={require('../../assets/images/app_store.png')} />
+        <img height="40px" width='135px' onClick="" src={require('../../assets/images/google_play.png')} alt='google'/>
+        <img style={{ marginLeft: "12px" }} height="40px" width='135px' onClick="" src={require('../../assets/images/app_store.png')} alt='apple'/>
 
       </div>
     </div>

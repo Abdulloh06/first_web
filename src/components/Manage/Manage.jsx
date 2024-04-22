@@ -9,12 +9,12 @@ function Manage() {
                 <div className='m-sub'>Download the app to manage your projects, keep track of the<br /> progress and complete tasks without procastinating. Stay on track<br /> and complete on time!</div>
 
                 <div className='app-text'>Get the App</div>
-                <img height="40px" width='135px' onClick="" src={require('../../assets/images/google_play.png')} />
-                <img style={{ marginLeft: "12px" }} height="40px" width='135px' onClick="" src={require('../../assets/images/app_store.png')} />
+                <img height="40px" width='135px' onClick="" src={require('../../assets/images/google_play.png')} alt='google'/>
+                <img style={{ marginLeft: "12px" }} height="40px" width='135px' onClick="" src={require('../../assets/images/app_store.png')} alt='apple'/>
 
             </div>
 
-            <img width="40%" src={require('../../assets/images/phones.png')}/>
+            <img width="40%" src={require('../../assets/images/phones.png')} alt='phones'/>
         </div>
     )
 }
